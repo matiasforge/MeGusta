@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.columna-izquierda {
+    flex-basis: 30%;
+}
+
+.columna-derecha {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cuadro {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.avatar {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.texto-azul {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.cuadro {
+    background-color: #fff;
+    border: 1px solid #020202;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.boton-amarillo {
+    background-color: rgba(255, 187, 0, 0.822);
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+h2 {
+    margin: 0;
+}
+
+.user-header {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.like-container {
+    vertical-align: middle;
+    float: right;
+}
+.Link{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.comic{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.album{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
